@@ -53,6 +53,10 @@
 						  0: function () { window.location.replace("#"); }, 200: function () { window.location.replace("#"); } }
 		});
 	}
+	function btnclickalert() {
+		var name = $('#name').val();
+		alert(name + " , we will contact you shortly ! :)");
+	}
 </script>
 </head>
 
@@ -115,21 +119,6 @@
 
 			<div class="item slider-screen">
 				<div class="slider-img-full">
-					<img src="uploads/slider-01.jpg" alt="" />
-				</div>
-				<div class="container">
-					<div class="slider-content text-white">
-						<div class="in-box">
-							<h2>INTERIOR DESIGN</h2>
-							<p>Specialized in design and coding graphics and websites.</p>
-							<a class="btn-slider hvr-rectangle-out" href="#about">Learn More</a>
-						</div>
-					</div>
-				</div>
-			</div>
-
-			<div class="item slider-screen">
-				<div class="slider-img-full">
 					<img src="uploads/slider-02.jpg" alt="" />
 				</div>
 				<div class="container">
@@ -146,6 +135,21 @@
 			<div class="item slider-screen">
 				<div class="slider-img-full">
 					<img src="uploads/slider-03.jpg" alt="" />
+				</div>
+				<div class="container">
+					<div class="slider-content text-white">
+						<div class="in-box">
+							<h2>INTERIOR DESIGN</h2>
+							<p>Specialized in design and coding graphics and websites.</p>
+							<a class="btn-slider hvr-rectangle-out" href="#about">Learn More</a>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="item slider-screen">
+				<div class="slider-img-full">
+					<img src="uploads/slider-01.jpg" alt="" />
 				</div>
 				<div class="container">
 					<div class="slider-content text-white">
@@ -758,7 +762,7 @@
 				<div class="col-md-12">
 					<div class="contact_form">
 						<div id="message"></div>
-						<form action="#">
+						<form>
 							<div class="row">
 								<div class="col-md-6">
 									<div class="form-group">
@@ -795,7 +799,7 @@
 								<div class="clearfix"></div>
 								<div class="col-lg-12 text-center">
 									<div id="success"></div>
-									<button onclick="postContactToGoogle()" id="" class="sim-btn hvr-rectangle-out" type="submit">Send
+									<button onclick="postContactToGoogle(), btnclickalert()" id="" class="sim-btn hvr-rectangle-out" type="submit">Send
 										Message</button>
 								</div>
 							</div>
@@ -811,14 +815,14 @@
 			<div class="footer-distributed">
 				<div class="footer-left">
 					<p class="footer-links">
-						<a href="#">Home</a>
-						<a href="#">Blog</a>
-						<a href="#">Pricing</a>
-						<a href="#">About</a>
-						<a href="#">Faq</a>
-						<a href="#">Contact</a>
+						<a href="#home">Home</a>
+						<a href="#blog">Blog</a>
+						<!-- <a href="#">Pricing</a> -->
+						<a href="#about">About</a>
+						<!-- <a href="#">Faq</a> -->
+						<a href="#contact">Contact</a>
 					</p>
-					<p class="footer-company-name">All Rights Reserved. &copy; 2018 <a href="#">Affascinante Inc</a>
+					<p class="footer-company-name">All Rights Reserved. &copy; 2020 <a href="#">Affascinante Inc</a>
 					</p>
 				</div>
 			</div>
