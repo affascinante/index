@@ -1,23 +1,35 @@
 /******************************************
     Version: 1.0
 /****************************************** */
+/* 
+
+#mainNav {
+	background-color: #444548;
+}
+
+.navbar-dark .navbar-toggler{
+	color: #faf6f6;
+	border-color: #ffffff;
+	font-size: 17px;
+} */
+
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {}
 @media (min-width: 768px) and (max-width: 991px) {
-	#mainNav {
+	/* #mainNav {
 		background-color: #ffffff;
-	}
+	} */
 	.navbar-dark .navbar-brand{
 		width: 55%;
 	}
 	.navbar-dark .navbar-nav .nav-link::after{
 		display: none;
 	}
-	.navbar-dark .navbar-toggler{
+	/* .navbar-dark .navbar-toggler{
 		color: rgba(0,0,0);
 		border-color: rgba(0,0,0);
 		font-size: 17px;
-	}	
+	}	 */
 	.navbar-dark .navbar-nav .nav-link{
 		padding: 10px 15px;
 		font-size: 14px;
@@ -102,20 +114,20 @@
 	}
 }
 @media (max-width: 767px) {
-	#mainNav {
+	/* #mainNav {
 		background-color: #ffffff;
-	}
+	} */
 	.navbar-dark .navbar-brand{
 		width: 55%;
 	}
 	.navbar-dark .navbar-nav .nav-link::after{
 		display: none;
 	}
-	.navbar-dark .navbar-toggler{
+	/* .navbar-dark .navbar-toggler{
 		color: rgba(0,0,0);
 		border-color: rgba(0,0,0);
 		font-size: 17px;
-	}	
+	}	 */
 	.navbar-dark .navbar-nav .nav-link{
 		padding: 10px 15px;
 		font-size: 14px;
@@ -200,20 +212,20 @@
 	}
 }
 @media only screen and (min-width: 280px) and (max-width: 599px) {
-	#mainNav {
+	/* #mainNav {
 		background-color: #ffffff;
-	}
+	} */
 	.navbar-dark .navbar-brand{
 		width: 55%;
 	}
 	.navbar-dark .navbar-nav .nav-link::after{
 		display: none;
 	}
-	.navbar-dark .navbar-toggler{
+	/* .navbar-dark .navbar-toggler{
 		color: rgba(0,0,0);
 		border-color: rgba(0,0,0);
 		font-size: 17px;
-	}	
+	}	 */
 	.navbar-dark .navbar-nav .nav-link{
 		padding: 10px 15px;
 		font-size: 14px;

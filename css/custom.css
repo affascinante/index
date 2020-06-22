@@ -1,2 +1,23 @@
 
 /** ADD YOUR AWESOME CODES HERE **/
+
+
+
+
+#mainNav {
+	background-color: #444548;
+}
+
+/* .navbar-dark .navbar-toggler{
+	color: #faf6f6;
+	border-color: #ffffff;
+	font-size: 17px;
+} */
+
+
+.navbar-dark .navbar-nav .nav-link {
+    color: #ffffff;
+    letter-spacing: 1px;
+    font-size: 16px;
+    position: relative;
+}
