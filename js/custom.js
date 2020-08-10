@@ -102,7 +102,8 @@
                 });
             });
             var $grid = $('.gallery-list').isotope({
-                itemSelector: '.gallery-grid'
+				itemSelector: '.gallery-grid',
+				layoutMode: 'masonry'
             });
 
         });
